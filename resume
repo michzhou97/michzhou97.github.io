@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michelle Zhou</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+      new WOW().init();
+
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".fixed-top");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+        <!-- logo -->
+        <a class="navbar-brand" href="index"><strong>Meesh</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <!-- pages -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="resume">RESUME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research">RESEARCH</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Full Page Intro -->
+          <!-- <div class="bg"></div> -->
+          <div class="view" style="background-image: url('images/resume2.jpg'); height:70%; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+          <!-- <div class="view" style="background-image: url('resume.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"> -->
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+              <!-- Content -->
+              <div class="container">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <!-- <div class="col-md-12 mb-4 white-text text-center">
+                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Michelle Zhou</strong></h1>
+                    <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Software Developer</strong></h5>
+                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Resume</a>
+                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About Me</a>
+                  </div> -->
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+          <!-- Full Page Intro -->
+        <!-- Main navigation -->
+        <!--Main Layout-->
+        <main>
+          <div class="container">
+            <!--Grid row-->
+            <div class="row py-5">
+              <!--Grid column-->
+              <div class="col-md-12 text-left">
+                <h1>Resume</h1>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+        </main>
+        <!--Main Layout -->
+      <div class="container-fluid">
+
+      <div class="container">
+        <h3>Education</h3>
+        <h5>University of Michigan</h5>
+        <p>College of Literature, Science, and the Arts</p>
+        <p>Ann Arbor, MI</p>
+        <p>September 2016 - December 2019</p>
+        <p>B.S. Computer Science</p>
+
+        <h5>Rutgers University</h5>
+        <p>School of Arts and Sciences Honors Program</p>
+        <p>New Brunswick, NJ</p>
+        <p>September 2015 - May 2016</p>
+
+        <h5>Relevant Coursework</h5>
+        <p>Data Structures and Algorithms, Discrete Mathematics, Introduction to Computer Organization, Foundations of Computer Science, Computing for Computer Scientists, Multidisciplinary Software Development</p>
+
+        <h3>Experience</h3>
+        <h5>Ally Financial Inc.</h5>
+        <p>Data Management and Analytics Intern</p>
+        <p>Detroit, MI</p>
+        <p>May 2018 - August 2018</p>
+        <p>Automated a rates testing process and increased testing speed by 80%</p>
+        <p>Saved 32 hours by converting a multi-step manual process to a 2-step process</p>
+        <p>Used Java, SpringBoot, and SQL to generate dynamic queries from databases and restful services</p>
+
+        <p>Automated daily reporting and saved 20 minutes a day with a completely automatic process</p>
+        <p>Used Visual Basic for Excel, SQL, VBScript, and Task Scheduler to pull data, perform necessary data manipulations, and send out an email to field agents</p>
+
+        <h5>Mutlidisciplinary Design Program</h5>
+        <p>Event Staff</p>
+        <p>Ann Arbor, MI</p>
+        <p>September 2018 - </p>
+        <p>Assist in setting up events and promoting the program to students</p>
+
+        <h3>Skills</h3>
+        <h5>Languages</h5>
+        <p>C++, C, Java, Python, R, SQL, Visual Basic</p>
+        <h5>Frameworks</h5>
+        <p>Spring Boot</p>
+        <h5>Design</h5>
+        <p>HTML, CSS, LaTeX, Photoshop, InDesign</p>
+
+
+      </div>
+    </div>
+  </body>
+</html>

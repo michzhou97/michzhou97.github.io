@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michelle Zhou</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+      new WOW().init();
+
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".fixed-top");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+        <!-- logo -->
+        <a class="navbar-brand" href="index"><strong>Meesh</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <!-- pages -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume">RESUME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects">PROJECTS</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="research">RESEARCH</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Full Page Intro -->
+          <!-- <div class="bg"></div> -->
+          <div class="view" style="background-image: url('images/research2.jpg'); height:70%; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+          <!-- <div class="view" style="background-image: url('resume.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"> -->
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+              <!-- Content -->
+              <div class="container">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <!-- <div class="col-md-12 mb-4 white-text text-center">
+                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Michelle Zhou</strong></h1>
+                    <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Software Developer</strong></h5>
+                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Resume</a>
+                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About Me</a>
+                  </div> -->
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+          <!-- Full Page Intro -->
+        <!-- Main navigation -->
+        <!--Main Layout-->
+        <main>
+          <div class="container">
+            <!--Grid row-->
+            <div class="row py-5">
+              <!--Grid column-->
+              <div class="col-md-12 text-left">
+                <h1>Research</h1>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+        </main>
+        <!--Main Layout -->
+      <div class="container-fluid">
+
+      <div class="container">
+        <h3>Michigan Nanotechnology Institute for Medicine and Biological Sciences</h3>
+        <h5>Research Assistant</h5>
+        <p>University of Michigan</p>
+        <p>May 2017 - July 2017</p>
+        <p>Assisted a project, under Dr. Seok Ki Choi, that studies multivalent nanoconjugates using a variety of drugs for targeting bacteria</p>
+        <p>Used surface plasmon resonance spectroscopy to measure the binding strength of each nanoparticle to the cell surface</p>
+        <p>Tested with D-Ala-D-Ala surface for antibiotic-susceptible bacteria and D-Ala-D-Lac surface for antibiotic-resistant bacteria</p>
+        <p>research paper link</p>
+
+        <h3>Kusnecov Laboratory</h3>
+        <h5>Research Assistant</h5>
+        <p>Rutgers University</p>
+        <p>January 2016 - August 2016</p>
+        <p>Worked on a project that studied whether the injection of the gene, SNAPIN, increases the efficiency of learning in the presence of amyloid plaque accumulation, an indicator of Alzheimer’s Disease</p>
+        <p>Ran and monitored tests independently using the ANY-maze tracking software and reviewed test videos, recording data from each </p>
+        <p>Contributed to a project that studied the correlation between the level of stress on an animal and the amount of c-Fos produced in its hippocampus and thalamus</p>
+        <p>Used immunohistochemistry to stain for c-Fos and counter-stain the remaining brain cells</p>
+        <p>Recorded photos of the stained tissue using a light microscope and analyzed the tissue using ImageJ software to set parameters to locate the desired proteins</p>
+
+
+      </div>
+    </div>
+  </body>
+</html>

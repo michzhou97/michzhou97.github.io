@@ -1,0 +1,35 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height:100vh;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+  /* color: white; */
+}
+
+h5 {
+  letter-spacing: 3px;
+  /* color: white; */
+}
+
+.hr-light{
+  border-top: 3px solid black;
+  width:80px;
+}
+
+.fixed-top.scrolled {
+  background-color: #8b85a3 !important;
+  transition: background-color 300ms linear;
+}
